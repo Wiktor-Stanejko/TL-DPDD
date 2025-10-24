@@ -1,0 +1,45 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.image-container div {
+  text-align: center;
+}
+
+.image-container img {
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 10vh;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    background-color: red;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 10vh;
+    background-color: red;
+}
