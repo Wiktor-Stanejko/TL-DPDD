@@ -4,7 +4,7 @@
   <div class="content-middle">
     <h2>Check the Weather</h2>
     <div class="weather-form">
-      <input type="text" id="locationInput" placeholder="Enter city" />
+      <input type="text" id="locationInput" placeholder="Enter city or postcode" />
       <button onclick="getWeather()">Get Weather</button>
     </div>
     <div id="weatherResult" class="weather-output"></div>

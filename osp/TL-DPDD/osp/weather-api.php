@@ -14,9 +14,6 @@ $weatherDescriptions = [
   53 => "Unknown",
   55 => "Unknown",
   63 => "Unknown",
-  65 => "Unknown",
-  85 => "Unknown",
-  73 => "Unknown",
 
 ];
 

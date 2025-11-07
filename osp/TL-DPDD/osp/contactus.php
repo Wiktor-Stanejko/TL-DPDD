@@ -6,7 +6,6 @@
 
         <div class="content-left-contact">
 
-            <div class="form5">
             <form action="/action_page.php">
                 <h2>Contact Us</h2>
 
@@ -32,7 +31,6 @@
 
                 <button type="submit">Send</button>
             </form>
-        </div>
  
             
         </div>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .form-section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <div class="form-section">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <input type="email" name="login_email" placeholder="Email" required>
+                <input type="password" name="login_password" placeholder="Password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+
+        <!-- Sign Up Section -->
+        <div class="form-section">
+            <h2>Sign Up</h2>
+            <form action="signup.php" method="POST">
+                <input type="text" name="signup_name" placeholder="Full Name" required>
+                <input type="email" name="signup_email" placeholder="Email" required>
+                <input type="password" name="signup_password" placeholder="Password" required>
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
